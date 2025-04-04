@@ -11,6 +11,11 @@
     "service_worker": "background.js",
     "type": "module"
   },
+  "icons": {
+    "16": "icon16x16.png",
+    "48": "icon48x48.png",
+    "128": "icon128x128.png"
+  },
   "permissions": ["scripting", "activeTab", "contextMenus"],
   "host_permissions": ["https://*/*"]
 }

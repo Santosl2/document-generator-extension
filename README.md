@@ -1,6 +1,8 @@
-# Utils Extension
+<video controls src="screen-capture.mp4" title="Preview"></video>
 
-A browser extension built with React, TypeScript, and Vite to provide useful utilities for web development.
+# CPF and CNPJ Generator Extension
+
+A browser extension that generates valid CPF and CNPJ numbers for testing purposes in Brazilian web applications. Built with modern web technologies to enhance developer productivity.
 
 ## Development
 
@@ -16,13 +18,17 @@ pnpm install
 pnpm dev
 ```
 
-## Building
+## How to install
 
-To build the extension:
-
-```bash
-pnpm build
-```
+- Download the repository
+- Run npm install in the repository folder
+- Run 'npm run build' in the repository folder
+- Open Chrome
+- Go to chrome://extensions/
+- Enable Developer mode
+- Click on Load unpacked
+- Select the repository dist folder
+- Enjoy!
 
 ## Tech Stack
 
