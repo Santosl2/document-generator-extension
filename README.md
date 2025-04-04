@@ -1,8 +1,11 @@
-<video controls src="screen-capture.mp4" title="Preview"></video>
+
 
 # CPF and CNPJ Generator Extension
 
 A browser extension that generates valid CPF and CNPJ numbers for testing purposes in Brazilian web applications. Built with modern web technologies to enhance developer productivity.
+
+![screen-capture6-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/a35f4ca5-2391-4be8-8f51-7ec06db09cbf)
+
 
 ## Development
 
