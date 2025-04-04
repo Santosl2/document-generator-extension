@@ -4,8 +4,9 @@
 
 A browser extension that generates valid CPF and CNPJ numbers for testing purposes in Brazilian web applications. Built with modern web technologies to enhance developer productivity.
 
-![screen-capture6-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/a35f4ca5-2391-4be8-8f51-7ec06db09cbf)
+![image](https://github.com/user-attachments/assets/15da40d9-ce2e-4649-aa2a-1be9996ee2c1)
 
+![image](https://github.com/user-attachments/assets/0d8f8e9a-bc2c-460e-93d9-faccea5039e1)
 
 ## Development
 
