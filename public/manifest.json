@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Gerador de documentos",
+  "version": "1.0.0",
+  "description": "A tool to help you generate documents more efficiently.",
+
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["scripting", "activeTab", "contextMenus"],
+  "host_permissions": ["https://*/*"]
+}
