@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Gerador de documentos",
+  "name": "Gerador de Documentos",
   "version": "1.0.0",
-  "description": "A tool to help you generate documents more efficiently.",
+  "description": "Uma ferramenta para ajudar você a gerar documentos de forma mais eficiente.",
 
   "action": {
     "default_popup": "index.html"

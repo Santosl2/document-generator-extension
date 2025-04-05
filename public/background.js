@@ -9,6 +9,12 @@ chrome.contextMenus.create({
   contexts: ["editable"],
 });
 
+chrome.contextMenus.create({
+  id: "generate-rg",
+  title: "Gerar e Colar RG",
+  contexts: ["editable"],
+});
+
 chrome.contextMenus.onClicked.addListener((info, tab) => {
   if (info.menuItemId === "generate-cpf") {
     chrome.scripting.executeScript({
@@ -130,6 +136,68 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
         ];
         const cnpj = cnpjList[Math.floor(Math.random() * cnpjList.length)];
         document.activeElement.value = cnpj;
+      },
+    });
+  }
+
+  if (info.menuItemId === "generate-rg") {
+    chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      func: () => {
+        const rgList = [
+          "251846973",
+          "394571682",
+          "157924836",
+          "483691527",
+          "729364815",
+          "361482957",
+          "594827316",
+          "847162539",
+          "123456789",
+          "987654321",
+          "246813579",
+          "135792468",
+          "369258147",
+          "147258369",
+          "258369147",
+          "159357246",
+          "357159246",
+          "456789123",
+          "789123456",
+          "321654987",
+          "654987321",
+          "987321654",
+          "147852369",
+          "258963147",
+          "369147258",
+          "159357246",
+          "357159246",
+          "456789123",
+          "789123456",
+          "321654987",
+          "654987321",
+          "987321654",
+          "147852369",
+          "258963147",
+          "369147258",
+          "159357246",
+          "357159246",
+          "456789123",
+          "789123456",
+          "321654987",
+          "654987321",
+          "987321654",
+          "147852369",
+          "258963147",
+          "369147258",
+          "159357246",
+          "357159246",
+          "456789123",
+          "789123456",
+          "321654987",
+        ];
+        const rg = rgList[Math.floor(Math.random() * rgList.length)];
+        document.activeElement.value = rg;
       },
     });
   }
