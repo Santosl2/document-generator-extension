@@ -1,10 +1,10 @@
-# CPF and CNPJ Generator Extension
+# Document Generator Extension
 
-A browser extension that generates valid CPF and CNPJ numbers for testing purposes in Brazilian web applications. Built with modern web technologies to enhance developer productivity.
+A browser extension that generates valid Document numbers for testing purposes in Brazilian web applications. Built with modern web technologies to enhance developer productivity.
 
 ## Use mode
 
-Right-click on the text field and select "Generate CPF" or "Generate CNPJ".
+Right-click on the text field and select "Generate Document".
 ![image](https://github.com/user-attachments/assets/15da40d9-ce2e-4649-aa2a-1be9996ee2c1)
 
 Or, if you prefer, click on the extension icon in the browser toolbar and select the desired option.
@@ -23,7 +23,6 @@ pnpm install
 ```bash
 pnpm dev
 ```
-
 
 ## How to install
 
