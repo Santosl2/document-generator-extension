@@ -16,6 +16,5 @@
     "48": "icon48x48.png",
     "128": "icon128x128.png"
   },
-  "permissions": ["scripting", "activeTab", "contextMenus"],
-  "host_permissions": ["https://*/*"]
+  "permissions": ["scripting", "activeTab", "contextMenus"]
 }
