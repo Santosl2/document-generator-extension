@@ -1,11 +1,11 @@
 chrome.contextMenus.create({
   id: "generate-cpf",
-  title: "Gera e Colar CPF",
+  title: "Gerar e Colar CPF",
   contexts: ["editable"],
 });
 chrome.contextMenus.create({
   id: "generate-cnpj",
-  title: "Gera e Colar CNPJ",
+  title: "Gerar e Colar CNPJ",
   contexts: ["editable"],
 });
 
