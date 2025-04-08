@@ -1,7 +1,7 @@
 {
   "name": "@santosl2/document-generator-extension",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "A Chrome extension for generating CPF and CNPJ documents.",
   "author": "Santosl2",
